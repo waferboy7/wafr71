@@ -1,0 +1,22 @@
+.label {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 70px;
+  max-width: 100px;
+  word-break: break-all;
+  margin-right: 10px;
+}
+
+.input {
+  width: min(60px, calc(100vw - 200px));
+  height: 19px;
+}
+
+.input-with-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(200px, calc(100vw - 100px));
+  padding: 5px 20px;
+}
