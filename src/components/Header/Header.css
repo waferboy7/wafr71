@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20px;
+    padding: 20px 45px;
+    top: 0px;
+    position: sticky;
+    background-color: #243047;
+    color: #BDBC8B;
+    z-index: 5;
+}

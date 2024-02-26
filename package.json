@@ -9,6 +9,12 @@
     "web-vitals": "^2.1.4",
     "wouter": "^3.0.0"
   },
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "src"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
